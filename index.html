@@ -3,81 +3,138 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
-  <title>LOW4 | Official Support</title>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1016">
+  <title>LOW4 | Official Support & Privacy</title>
+
   <style>
     * { box-sizing: border-box; }
+
     html { scroll-behavior: smooth; }
+
     body {
       margin: 0;
+      background: #0b1016;
+      color: #f5f3e8;
       font-family: -apple-system, BlinkMacSystemFont,
                    "Segoe UI", sans-serif;
-      color: #f5f7fa;
-      background: #0b1016;
       line-height: 1.7;
     }
+
     header {
-      padding: 90px 20px 65px;
       text-align: center;
+      padding: 85px 20px 65px;
       background: radial-gradient(
-        ellipse at top, #183b30, #0b1016 75%);
+        ellipse at top, #204539, #0b1016 75%);
     }
+
     .logo {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
       width: 95px;
       height: 95px;
-      border-radius: 24px;
-      background: #17271f;
-      color: #a4f3ab;
+      border-radius: 25px;
+      background: #203c32;
+      color: #b8edb7;
       font-size: 55px;
       font-weight: 900;
-      margin-bottom: 22px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 25px;
     }
+
     h1 {
-      font-size: 56px;
-      letter-spacing: 5px;
+      font-size: 58px;
+      letter-spacing: 4px;
       margin: 0;
     }
-    h2 { color: #a4f3ab; margin-top: 0; }
-    p { color: #c2cbd1; }
-    .subtitle { font-size: 19px; }
-    .tag {
-      color: #a4f3ab;
-      font-size: 13px;
-      letter-spacing: 3px;
-      text-transform: uppercase;
+
+    h2 {
+      color: #b8edb7;
+      margin-top: 0;
     }
+
+    h3 {
+      color: #f5f3e8;
+      margin-bottom: 6px;
+    }
+
+    p, li {
+      color: #c2cdca;
+    }
+
+    .subtitle {
+      color: #a2b7b4;
+      font-size: 19px;
+    }
+
+    .tag {
+      color: #b8edb7;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 12px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #b8edb7;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
     main {
-      max-width: 820px;
+      max-width: 850px;
       margin: auto;
       padding: 20px;
     }
+
     section {
+      background: #151f25;
+      border: 1px solid #293c3a;
+      border-radius: 18px;
       padding: 30px;
       margin: 22px 0;
-      background: #151e26;
-      border: 1px solid #28353a;
-      border-radius: 18px;
     }
-    a { color: #a4f3ab; }
+
+    a { color: #b8edb7; }
+
     .button {
       display: inline-block;
-      padding: 13px 24px;
-      background: #a4f3ab;
-      color: #102018;
-      font-weight: bold;
+      background: #b8edb7;
+      color: #11231c;
       text-decoration: none;
-      border-radius: 10px;
-      margin-top: 8px;
+      padding: 13px 25px;
+      border-radius: 11px;
+      font-weight: bold;
+      margin-top: 12px;
     }
+
+    .info {
+      padding: 18px;
+      background: #1b302b;
+      border-left: 3px solid #b8edb7;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
     footer {
       text-align: center;
-      padding: 35px;
-      color: #839397;
+      padding: 40px 20px;
+      color: #91a4a0;
       font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 45px; }
+      section { padding: 23px; }
+      header { padding-top: 65px; }
     }
   </style>
 </head>
@@ -90,102 +147,429 @@
   <h1>LOW4</h1>
   <p class="subtitle">Remember. Swap. Go Low.</p>
   <p>Official Support & Privacy Information</p>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#support">Support</a>
+    <a href="#faq">FAQ</a>
+    <a href="#privacy">Privacy Policy</a>
+  </nav>
 </header>
 
 <main>
 
-<section>
+<section id="about">
   <h2>Welcome to LOW4</h2>
+
   <p>
     LOW4 is a strategic card game where memory,
-    smart decisions and perfect timing determine
+    timing and clever decisions determine
     the winner.
   </p>
+
   <p>
-    Challenge computer opponents, remember your
-    hidden cards and aim for the lowest score.
+    Challenge computer-controlled opponents,
+    remember your hidden cards and aim
+    for the lowest score.
   </p>
+
+  <p>
+    Play solo or challenge friends through
+    the online multiplayer mode.
+  </p>
+
+  <div class="info">
+    <strong>Remember. Swap. Go Low.</strong>
+    <p>
+      Simple to learn. Challenging to master.
+      Every card counts.
+    </p>
+  </div>
 </section>
 
-<section>
+<section id="support">
   <h2>Support & Contact</h2>
+
   <p>
-    Need help with LOW4? Found a bug or have
-    an idea for a new feature?
+    Need help with LOW4?
+    Found a bug or have an idea for a new feature?
   </p>
+
   <p>
-    Contact our support team by email.
+    Contact Y.Gaming by email.
     Please include your device model,
     iOS version and a description of the issue.
   </p>
+
   <a class="button"
      href="mailto:y.gaming@icloud.com?subject=LOW4%20Support">
     Contact Support
   </a>
-</section>
 
-<section>
-  <h2>Frequently Asked Questions</h2>
-
-  <h3>Can I play without an account?</h3>
   <p>
-    Yes. You can play against computer-controlled
-    opponents without creating an account.
-  </p>
-
-  <h3>How do I report a problem?</h3>
-  <p>
-    Email y.gaming@icloud.com with a description
-    of the problem.
-  </p>
-
-  <h3>Where can I send feedback?</h3>
-  <p>
-    We welcome suggestions and feedback at
-    our support email address.
-  </p>
-</section>
-
-<section id="privacy">
-  <h2>Privacy Information</h2>
-  <p>Last updated: October 13, 2026</p>
-
-  <h3>Offline Gameplay</h3>
-  <p>
-    LOW4 allows gameplay against computer
-    opponents without requiring registration.
-  </p>
-
-  <h3>Support Communications</h3>
-  <p>
-    If you contact us by email, your email address
-    and message are used to process and respond
-    to your support request.
-  </p>
-
-  <h3>Support Website</h3>
-  <p>
-    This support page does not include advertising,
-    analytics scripts or registration forms.
-    The hosting provider may process technical
-    connection data when delivering the website.
-  </p>
-
-  <h3>Privacy Questions</h3>
-  <p>
-    For questions about privacy or your personal
-    information, please contact:
-    <a href="mailto:y.gaming@icloud.com">
+    Email: <a href="mailto:y.gaming@icloud.com">
       y.gaming@icloud.com
     </a>
   </p>
 </section>
 
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <h3>Can I play LOW4 offline?</h3>
+  <p>
+    Yes. LOW4 supports offline gameplay against
+    computer-controlled opponents.
+  </p>
+
+  <h3>Do I need an account?</h3>
+  <p>
+    No account is required to play against
+    computer-controlled opponents.
+  </p>
+
+  <h3>How does online multiplayer work?</h3>
+  <p>
+    Online multiplayer uses temporary game rooms
+    to connect players. A network connection
+    and an available game server are required.
+  </p>
+
+  <h3>What if online multiplayer is unavailable?</h3>
+  <p>
+    Online availability depends on the game
+    server and network connectivity.
+    Offline gameplay remains available.
+  </p>
+
+  <h3>How do I report a bug?</h3>
+  <p>
+    Send an email to y.gaming@icloud.com
+    with a description of the issue.
+  </p>
+</section>
+
+<section id="privacy">
+  <h2>Privacy Policy</h2>
+  <p><strong>Last updated:</strong> October 13, 2026</p>
+
+  <p>
+    This Privacy Policy explains how LOW4
+    processes information when you use the game,
+    its online multiplayer features or this
+    support website.
+  </p>
+
+  <h3>1. Data Controller</h3>
+  <p>
+    LOW4 is published by Y.Gaming under the
+    developer account of Chayma El Ouariachi.
+  </p>
+  <p>
+    Privacy contact:
+    <a href="mailto:y.gaming@icloud.com">
+      y.gaming@icloud.com
+    </a>
+  </p>
+
+  <h3>2. Offline Gameplay</h3>
+  <p>
+    LOW4 can be played offline without
+    creating an account.
+  </p>
+  <p>
+    Local gameplay statistics and solo game
+    progress may be stored on your device
+    using Apple's local storage facilities,
+    including UserDefaults.
+  </p>
+  <p>
+    These locally stored game records are
+    not automatically uploaded to our
+    multiplayer server.
+  </p>
+
+  <h3>3. Online Multiplayer Data</h3>
+  <p>
+    When you use online multiplayer, LOW4
+    processes information necessary to
+    create and maintain multiplayer sessions.
+  </p>
+
+  <p>This may include:</p>
+  <ul>
+    <li>Player display names or nicknames.</li>
+    <li>Temporary connection identifiers.</li>
+    <li>Game room identifiers and join codes.</li>
+    <li>Public or private lobby settings.</li>
+    <li>Player and session assignments.</li>
+    <li>Game status and session timestamps.</li>
+    <li>Cards, game moves and scores exchanged
+        during multiplayer gameplay.</li>
+  </ul>
+
+  <p>
+    Player nicknames may be visible to other
+    players when browsing available public
+    game rooms.
+  </p>
+
+  <p>
+    This information is used to provide the
+    online multiplayer functionality,
+    coordinate players and maintain sessions.
+  </p>
+
+  <h3>4. Temporary Server Storage</h3>
+  <p>
+    Multiplayer lobby data is stored temporarily
+    in server memory while required for
+    active sessions.
+  </p>
+
+  <p>
+    Lobby information is generally removed
+    when the hosting player disconnects
+    or when the session expires.
+    Sessions may remain in temporary
+    server memory for up to six hours.
+  </p>
+
+  <p>
+    The current multiplayer server does not
+    implement a persistent database for
+    these lobby records.
+  </p>
+
+  <h3>5. IP Addresses and Network Data</h3>
+  <p>
+    LOW4 uses tunnl.gg as a network tunnel
+    service to connect players with
+    the multiplayer server.
+  </p>
+
+  <p>
+    The tunnel provider may process visitor
+    IP addresses and network information
+    for connection management, security,
+    rate limiting and abuse prevention.
+  </p>
+
+  <p>
+    According to the provider's published
+    privacy policy, connection logs may
+    be retained for up to 30 days,
+    or longer during an abuse investigation.
+    IP-based restrictions may be retained
+    for the duration of a restriction.
+  </p>
+
+  <p>
+    More information:
+    <a href="https://tunnl.gg/privacy"
+       target="_blank"
+       rel="noopener noreferrer">
+      tunnl.gg Privacy Policy
+    </a>
+  </p>
+
+  <h3>6. Gameplay Security</h3>
+  <p>
+    LOW4 uses Apple's CryptoKit framework,
+    including HPKE, to protect multiplayer
+    gameplay data exchanged between players.
+  </p>
+
+  <p>
+    The game relay forwards the protected
+    gameplay packets without decrypting
+    their inner gameplay contents.
+    Connection metadata may still be
+    processed by network providers.
+  </p>
+
+  <h3>7. Advertising and Analytics</h3>
+  <p>
+    The current version of LOW4 does not
+    integrate third-party advertising,
+    Firebase Analytics, Crashlytics,
+    Sentry or similar analytics SDKs.
+  </p>
+
+  <p>
+    Multiplayer information is not used
+    by Y.Gaming for advertising
+    or cross-app tracking.
+  </p>
+
+  <p>
+    If these practices change in a future
+    version, this policy and the App Store
+    privacy disclosures will be updated.
+  </p>
+
+  <h3>8. Support Communications</h3>
+  <p>
+    If you contact us by email, we receive
+    your email address, your message and
+    any information you choose to provide.
+  </p>
+
+  <p>
+    This information is used to respond
+    to support requests and resolve issues.
+    Support messages are retained only
+    for as long as reasonably necessary
+    for those purposes or applicable
+    legal obligations.
+  </p>
+
+  <h3>9. Support Website Hosting</h3>
+  <p>
+    This website is hosted using GitHub Pages.
+  </p>
+
+  <p>
+    The website itself does not integrate
+    advertising trackers, analytics scripts
+    or user registration forms.
+  </p>
+
+  <p>
+    GitHub may process technical connection
+    information when delivering the website.
+    Please refer to GitHub's privacy
+    documentation for additional details.
+  </p>
+
+  <h3>10. Data Sharing</h3>
+  <p>
+    LOW4 shares the information necessary
+    for multiplayer functionality with
+    participating players and the
+    network services used to operate
+    online sessions.
+  </p>
+
+  <p>
+    We do not sell player information
+    to advertisers or data brokers.
+  </p>
+
+  <h3>11. Legal Basis</h3>
+  <p>
+    Where the General Data Protection Regulation
+    applies, multiplayer session data is
+    processed to provide the service requested
+    by players under Article 6(1)(b) GDPR.
+  </p>
+
+  <p>
+    Network security and abuse-prevention
+    processing may be based on legitimate
+    interests under Article 6(1)(f) GDPR.
+  </p>
+
+  <p>
+    Support communications are processed
+    to respond to requests and, where
+    applicable, pursue legitimate interests
+    in operating and improving support.
+  </p>
+
+  <h3>12. International Data Processing</h3>
+  <p>
+    Some service providers may process
+    information outside the European
+    Economic Area.
+  </p>
+
+  <p>
+    Where applicable, such processing
+    must comply with relevant data
+    protection requirements.
+  </p>
+
+  <h3>13. Data Retention and Deletion</h3>
+  <p>
+    Offline gameplay information is stored
+    locally on your device and may be
+    removed by deleting the app and
+    its local data.
+  </p>
+
+  <p>
+    Multiplayer lobby data is temporary,
+    as described above. Network-provider
+    information is subject to the provider's
+    applicable retention policies.
+  </p>
+
+  <p>
+    To request information or deletion
+    of data under our control,
+    contact y.gaming@icloud.com.
+  </p>
+
+  <p>
+    We will review requests in accordance
+    with applicable law. Some temporary
+    records may already have expired
+    by the time a request is received.
+  </p>
+
+  <h3>14. Your Privacy Rights</h3>
+  <p>
+    Depending on your location, you may
+    have rights to access, correct,
+    delete or obtain personal data,
+    restrict processing or object
+    to certain uses of your data.
+  </p>
+
+  <p>
+    You may stop using the optional
+    online multiplayer functionality
+    at any time.
+  </p>
+
+  <p>
+    You may also contact the competent
+    data protection supervisory authority
+    if you have a complaint.
+  </p>
+
+  <h3>15. Changes to This Policy</h3>
+  <p>
+    We may update this Privacy Policy
+    when LOW4 introduces new features
+    or changes how information is processed.
+  </p>
+
+  <p>
+    Updates will be published on this page
+    with a revised effective date.
+  </p>
+
+  <div class="info">
+    <strong>Privacy Questions or Deletion Requests</strong>
+    <p>
+      For questions, access requests or
+      deletion requests, contact:
+    </p>
+    <a class="button"
+       href="mailto:y.gaming@icloud.com?subject=LOW4%20Privacy%20Request">
+      Contact Privacy Support
+    </a>
+  </div>
+</section>
+
 </main>
 
 <footer>
-  &copy; 2026 Y.Gaming<br>
-  LOW4 — Official Support
+  &copy; 2026 Y.Gaming
+  <p>LOW4 – Official Support & Privacy</p>
+  <p>Remember. Swap. Go Low.</p>
 </footer>
 
 </body>
